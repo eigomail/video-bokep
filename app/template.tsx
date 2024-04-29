@@ -2,7 +2,6 @@ import Footer from "@/components/layouts/footer";
 import Navbar from "@/components/layouts/navbar";
 import { ReactNode } from "react";
 import { Toaster } from "@/components/ui/sonner";
-import AdScript from "@/components/ads";
 
 export default function Template({ children }: { children: ReactNode }) {
     return (
@@ -13,7 +12,6 @@ export default function Template({ children }: { children: ReactNode }) {
             </div>
             <Footer />
             <Toaster position="top-right" />
-            <AdScript />
         </main>
     );
 }
