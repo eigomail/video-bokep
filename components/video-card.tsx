@@ -22,9 +22,6 @@ const VideoCard = ({ video }: any) => {
                     title={video.title}
                 />
                 </Link>
-                <Badge className="absolute bottom-1 right-1 px-1 bg-black bg-opacity-65">
-                    {humanDuration(video.length)}
-                </Badge>
             </div>
             <CardContent className="p-1.5"><h3>
                 <Link
@@ -34,13 +31,6 @@ const VideoCard = ({ video }: any) => {
                 >
                     {video.title}
                 </Link></h3>
-                <div className="flex flex-row justify-between text-[0.6rem] md:text-xs my-1 uppercase text-gray-500">
-                    <span>{video.views} views</span>
-                    <div className="inline-flex">
-                        {naturalTime(video.uploaded + ".000Z")}
-                        <LikeButton file={video} className="ml-2" />
-                    </div>
-                </div>
             </CardContent>
         </Card>
     );
