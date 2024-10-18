@@ -174,6 +174,7 @@ const jsonLd = {
                 </CardHeader>
                 <CardContent>
                     <div className="grid grid-flow-row lg:grid-flow-col">
+            <p>Video bokep indo terbaru viral {file.title} di {SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot twitter asia download live stw situs indonesia nonton link sd crot playbokep simontok bokepin montok baru perawan anak kecil telegram selingkuh ojol cantik gay vidio lokal artis pelajar janda streaming jepang barat korea japan jav cina japanese china rusia arab india thailand hd anime hentai bokepind gudang avtub pijat sotwe rumah pemerkosaan inggris xpanas pure tobrut vcs ngintip binor remaja yandex update perselingkuhan wiki raja full com porno indoh</p>
                         <Table>
                             <TableBody>
                                 <TableRow>
@@ -214,30 +215,9 @@ const jsonLd = {
                                 </TableRow>
                             </TableBody>
                         </Table>
-                        <div className="grid grid-cols-2 gap-2 mt-8 md:grid-cols-3 lg:grid-cols-2 lg:ml-4 lg:my-4">
-                            <Link
-                                href={`https://${upstream}/d/${file.filecode}`}
-                                className="col-span-full md:col-auto lg:col-span-full"
-                            >
-                                <Button className="w-full">
-                                    <DownloadIcon className="size-4 me-1 mb-1"></DownloadIcon>
-                                    Download
-                                </Button>
-                            </Link>
-                            <CopyButton className="bg-secondary lg:col-span-full">
-                                <Share1Icon className="size-4 me-1 mb-0.5"></Share1Icon>
-                                Share
-                            </CopyButton>
-                            <LikeButton
-                                className="lg:col-span-full"
-                                useButton={true}
-                                file={file}
-                            />
-                        </div>
                     </div>
                 </CardContent>
             </Card>
-            <p>Video bokep indo terbaru viral {file.title} di {SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot twitter asia download live stw situs indonesia nonton link sd crot playbokep simontok bokepin montok baru perawan anak kecil telegram selingkuh ojol cantik gay vidio lokal artis pelajar janda streaming jepang barat korea japan jav cina japanese china rusia arab india thailand hd anime hentai bokepind gudang avtub pijat sotwe rumah pemerkosaan inggris xpanas pure tobrut vcs ngintip binor remaja yandex update perselingkuhan wiki raja full com porno indoh</p>
             <h2 className="text-2xl font-bold text-center my-4">
                 Related Video {file.title}
             </h2>
