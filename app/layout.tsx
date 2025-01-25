@@ -47,17 +47,6 @@ export default function RootLayout({
             },
             "foundingDate":"2024-01-09"
         }
-        const jsonLd1 = {
-            "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": `${SITENAME}`,
-        "url": "https://video-bokep.pages.dev",
-        "description": `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
-        "image": "https://video-bokep.pages.dev/favicon.ico",
-        "potentialAction":{
-            "@type":"ReadAction",
-            "target":"https://video-bokep.pages.dev"}
-        }
         const jsonLd2 = {
             "@context": "https://schema.org",
         "@type": "WebSite",
@@ -84,16 +73,11 @@ export default function RootLayout({
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd1) }}
-        />
-        <script
-          type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd2) }}
         />
                     {children}
                 </ThemeProvider>
             </body>
-<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w264x294&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         </html>
     );
 }
