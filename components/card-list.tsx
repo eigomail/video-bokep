@@ -37,7 +37,7 @@ const CardList = async ({
                     );
                 })}
             </div>
-            <Paginate total={data.result.total_pages} current={page}></Paginate>
+            <Paginate total={data.result.pages} current={page}></Paginate>
         </div>
     );
 };

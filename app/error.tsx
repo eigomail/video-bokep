@@ -1,5 +1,4 @@
-"use client"; // Error components must be Client Components
-
+"use client";
 import { Button } from "@/components/ui/button";
 import Center from "@/components/layouts/center";
 import MessageBox from "@/components/message-box";
@@ -17,8 +16,9 @@ export default function Error({
     }, [error]);
 
     return (
-        <MessageBox title={error.message} countdown={3}>
+        <MessageBox title={error.message} countdown={1}>
             <Button onClick={reset}>Try Again</Button>
         </MessageBox>
     );
 }
+

@@ -19,14 +19,14 @@ const SearchCardList = async ({
                         Search Results
                     </h1>
                     <h1 className="text-sm md:text-xl uppercase">
-                        Found {data.result.length} videos for &apos;{query}
+                        Found {data.result.results_total} videos for &apos;{query}
                         &apos;
                     </h1>
                 </div>
             )}
-            {data.result.length ? (
+            {data.result.results_total ? (
                 <div className="grid grid-cols-2 gap-0 md:grid-cols-3 md:gap-3 xl:grid-cols-4">
-                    {data.result.map((video: any) => {
+                    {data.result.files.map((video: any) => {
                         return (
                             <VideoCard
                                 key={video.file_code}
