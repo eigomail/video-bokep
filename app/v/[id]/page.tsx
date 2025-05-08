@@ -41,11 +41,11 @@ export async function generateMetadata(
             title,
             description,
             images: `${file.player_img}`,
-            url: `/v/${file.file_code}#${file.file_title}`,
+            url: `/v/${file.file_code}`,
             type: `article`,
         },
         alternates: {
-            canonical: `/v/${file.file_code}#${file.file_title}`,
+            canonical: `/v/${file.file_code}`,
         },
     };
 }
@@ -69,7 +69,7 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.file_title}`,
         image: file.splash_img,
         description: `${file.file_title} di ${SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://video-bokep.pages.dev/v/${file.file_code}#${file.file_title}`,
+        url: `https://video-bokep.pages.dev/v/${file.file_code}`,
         datePublished: new Date(
             file.file_created + ".000Z"
         ).toISOString(),
@@ -89,7 +89,7 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.file_title}`,
         image: file.player_img,
         description: `${file.file_title} di ${SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://video-bokep.pages.dev/v/${file.file_code}#${file.file_title}`,
+        url: `https://video-bokep.pages.dev/v/${file.file_code}`,
         datePublished: new Date(
             file.file_created + ".000Z"
         ).toISOString(),
@@ -106,7 +106,7 @@ export default async function Video({ params }: PageProps) {
                 userInteractionCount: `${file.file_views}`,
             interactionType: {
                 '@type': `ReadAction`,
-                target: `https://video-bokep.pages.dev/v/${file.file_code}#${file.file_title}`
+                target: `https://video-bokep.pages.dev/v/${file.file_code}`
             }  
         }
         }
@@ -135,7 +135,7 @@ export default async function Video({ params }: PageProps) {
         {/* ... */}
         </section>
                         <iframe
-                className="w-full h-[55vh] md:h-[55vh] lg:h-[70vh]"
+                className="w-full h-[90vh] md:h-[90vh] lg:h-[90vh]"
                 src={`https://filemoon.to/e/${file.file_code}`}
                 scrolling="no"
                 title={file.file_title}
